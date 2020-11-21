@@ -640,3 +640,8 @@ export const Chess: {
      */
     new (fen?: string): ChessInstance;
 };
+
+/**
+ * The chess.js function is exported as default in RequireJS compatible environments.
+ */
+export default Chess;
